@@ -12,7 +12,7 @@ composer install
 ```
 
 ### Step 2: Edit configuration settings
-Look at all files inside the /configuration folder and edit as necessary
+Look at all files inside the <target folder>/configuration folder and edit as necessary
 
 ### Step 4: Run the installation script
 This script will create the database
@@ -21,5 +21,6 @@ This script will create the database
 ```
 
 ### Step 5: publish
-Make the /public directory available through a web server
+Make the <target folder>/public directory available through a web server.
+
 An apache configuration file is available in /apache/phidias-rack.conf
